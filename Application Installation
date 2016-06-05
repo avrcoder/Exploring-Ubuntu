@@ -1,0 +1,4 @@
+In order to install any application in ubuntu we use the command
+sudo apt-get install application_name
+here sudo is used to access the administrative privilages and it will ask you for the password.
+All this has to be done in the terminal which can be opened with ctrl + alt + t.
