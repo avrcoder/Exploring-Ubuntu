@@ -1,0 +1,8 @@
+The current GCC in the ubuntu repository doesn’t support the C++14 standard. To use the C++14 install the GCC has to be updated manually. It can be found in the Ubuntu Toolchain PPA. After this, the C++ compiler can be updated. The following commands show how to add the repository and install the compiler:
+
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install g++-4.9
+
+After the installation, the compiler can be used by this command:
+g++-4.9
